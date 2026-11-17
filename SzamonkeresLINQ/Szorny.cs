@@ -8,12 +8,12 @@ namespace SzamonkeresLINQ
     {
 
 
-        private int id; {  get; set; }
-        private string nev; { get; set; }
-        private int veszelyessegiSzint; { get; set; }
-        private string elohely; {  get; set; }
-        private string foGyengeseg; { get; set; }
-        private string leggyakoribbZsakmany; { get; set; }
+        private int id { get; set; }
+        private string nev { get; set; }
+        private int veszelyessegiSzint { get; set; }
+        private string elohely {  get; set; }
+        private string foGyengeseg { get; set; }
+        private string leggyakoribbZsakmany { get; set; }
         private bool veszelyesE { get; set; }
 
         public int Id { get { return id; }}
